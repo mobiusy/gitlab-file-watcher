@@ -64,3 +64,7 @@ under root directory of the project, run:
 ```bash
 docker-compose up -d
 ```
+
+## Email example
+![企业微信截图_16884606917777](https://github.com/mobiusy/gitlab-file-watcher/assets/27566449/fe1ac512-1de0-4da1-baf7-a24948f5b341)
+
