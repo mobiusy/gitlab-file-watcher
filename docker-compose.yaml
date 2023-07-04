@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  gitlab-file-watcher:
+    image: gitlab-file-watcher:latest
+    build:
+      context: .
+    container_name: gitlab-file-watcher
+    env_file: 
+      - .env
+    restart: always

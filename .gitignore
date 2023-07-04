@@ -1,0 +1,4 @@
+.env
+since_time.data
+node_modules
+dist/
