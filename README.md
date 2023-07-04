@@ -47,14 +47,14 @@ To use this tool, you'll need to do the following:
 ### Run by docker
 
 under root directory of the project, run:
-
+ 
 ```bash
-docker build -t gitlab-change-notifier .
+docker build -t gitlab-change-notifier:latest .
 docker run -d \
-    -v /path/to/your/.env:/app/.env \
+    -v /absolute/path/to/.env:/app/.env \
     --name gitlab-change-notifier \
     --restart=always \
-    gitlab-change-notifier
+    gitlab-change-notifier:latest
 ```
 
 ### Run by docker-compose

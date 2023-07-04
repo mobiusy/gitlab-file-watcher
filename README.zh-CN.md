@@ -40,12 +40,12 @@
 
 在项目的根目录下运行以下命令：
   ```bash
-  docker build -t gitlab-change-notifier .
-  docker run -d \
-    -v /path/to/your/.env:/app/.env \
+docker build -t gitlab-change-notifier:latest .
+docker run -d \
+    -v /absolute/path/to/.env:/app/.env \
     --name gitlab-change-notifier \
     --restart=always \
-    gitlab-change-notifier
+    gitlab-change-notifier:latest
   ```
 ### 使用Docker Compose运行
 在项目的根目录下运行以下命令：

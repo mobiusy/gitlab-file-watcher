@@ -6,5 +6,5 @@ services:
       context: .
     container_name: gitlab-file-watcher
     env_file: 
-      - .env
+      - ./.env
     restart: always
